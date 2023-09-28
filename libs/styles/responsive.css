@@ -1,0 +1,9 @@
+/* Màn điện thoại  */
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 15px;
+    }
+    button{
+        font-weight: 600;
+    }
+}

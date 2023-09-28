@@ -1,0 +1,14 @@
+header{
+    background: #263c97;
+}
+
+
+/* do dính css bootstrap  */
+header p,a{
+    color: white !important;
+}
+
+header .custom-bg-modal a{
+    color: black !important;
+}
+

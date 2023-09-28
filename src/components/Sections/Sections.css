@@ -1,0 +1,23 @@
+/* CSS FOR SEC-1  */
+
+.sec-1 .intro1{
+    padding: 4rem;
+    background: #fa4e44;
+}
+section.sec-1 .intro1 .title{
+    font-size: 3rem;
+    color: var(--text-secondary);
+}
+section.sec-1 .intro1 .desc{
+    font-size: 1.2rem;
+    color: var(--text-primary);
+}
+section.sec-1 .intro1 .btn-intro1{
+    border: solid 0.2rem var(--text-primary);
+    font-weight: 600;
+}
+section.sec-1 .intro1 .btn-intro1:hover{
+    transition: all 0.7s;
+    background-color: var(--text-primary) !important;
+    color: black !important;
+}

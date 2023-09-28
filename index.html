@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Online</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./libs/styles/root.css">
+    <link rel="stylesheet" href="./libs/bootstrap_5/cdn.jsdelivr.net_npm_bootstrap@5.2.3_dist_css_bootstrap.min.css">
+    <!-- Animation  -->
+    <link rel="stylesheet" href="./libs/animations/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
+    <!-- Đặt ở cuối  -->
+    <link rel="stylesheet" href="./libs/styles/responsive.css">
+    <!-- End Link Css -->
+    <!-- CSS Header  -->
+    <link rel="stylesheet" href="./src/components/Header/Header.css">
+    <!-- CSS Section  -->
+    <link rel="stylesheet" href="./src/components/Sections/Sections.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header>
+        <div class="wrap-ctn container-lg container-fluid py-2">
+            <div class="row align-items-center">
+                <!-- Body scrolling and backdrop  -->
+                <div class="col-1 d-md-none d-block px-1">
+
+                    <button class="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#openModal1"
+                        aria-controls="openModal1">
+
+                        <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M4 6H20M4 12H20M4 18H20" stroke="#ffffff" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="offcanvas offcanvas-start custom-bg-modal" data-bs-scroll="true" tabindex="-1"
+                    id="openModal1" aria-labelledby="openModal1Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="openModal1Label">Options:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul>
+                            <li><a href="" class="d-inline-block text-decoration-none black-2 fw-semibold">Demos</a>
+                            </li>
+                            <li><a href="" class="d-inline-block text-decoration-none black-2 fw-semibold">Shop</a></li>
+                            <li><a href="" class="d-inline-block text-decoration-none black-2 fw-semibold">Features</a>
+                            </li>
+                            <li><a href="" class="d-inline-block text-decoration-none black-2 fw-semibold">Mobile</a>
+                            </li>
+                            <li><a href="" class="d-inline-block text-decoration-none black-2 fw-semibold">Elements</a>
+                            </li>
+                            <li><a href="" class="d-inline-block text-decoration-none black-2 fw-semibold">Core</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Body scrolling and backdrop  -->
+                <div class="col-md-1 col-2 wow slideInLeft" data-wow-duration="2s">
+                    <img src="./assets/images/logo.webp" alt="" class="img-fluid logo">
+                </div>
+                <div class="col-lg-7 col-md-6 d-md-block d-none">
+                    <ul class="d-flex p-0 m-0 justify-content-center">
+                        <!-- Ctrl Alt mũi tên lên xuống: sửa nhiều hàng  -->
+                        <li><a href="#"
+                                class="px-2 py-4 d-inline-block text-decoration-none black-2 fw-semibold">Demos</a></li>
+                        <li><a href="#"
+                                class="px-2 py-4 d-inline-block text-decoration-none black-2 fw-semibold">Shop</a></li>
+                        <li><a href="#"
+                                class="px-2 py-4 d-inline-block text-decoration-none black-2 fw-semibold">Features</a>
+                        </li>
+                        <li><a href="#"
+                                class="px-2 py-4 d-inline-block text-decoration-none black-2 fw-semibold">Mobile</a>
+                        </li>
+                        <li><a href="#"
+                                class="px-2 py-4 d-inline-block text-decoration-none black-2 fw-semibold">Elements</a>
+                        </li>
+                        <li><a href="#"
+                                class="px-2 py-4 d-inline-block text-decoration-none black-2 fw-semibold">Core</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-5 col-9">
+                    <div class="wrap-btn d-flex justify-content-end gap-1">
+                        <button class="btn-red px-2 py-2 border-0 rounded-2">Open store FREE</button>
+                        <button class="btn-green px-2 py-2 border-0 rounded-2">Purchase theme</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header  -->
+
+    <!-- Main Section  -->
+    <main>
+        <section class="sec-1 container-fluid p-4">
+            <div class="inner-wrap">
+                <div class="row">
+                    <div class="col-7 intro1 rounded-2">
+                        <p class="title">Effect</p>
+                        <p class="desc">Wireless</p>
+                        <button class="cta bg-no px-5 py-2 rounded-pill bg-transparent text-white btn-intro1">Discover Now</button>
+                    </div>
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col-6">Canyon</div>
+                            <div class="col-6">Phone</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">Galaxy</div>
+                            <div class="col-6">Chair</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End Main Section  -->
+    <script src="./libs/animations/cdnjs.cloudflare.com_ajax_libs_jquery_3.7.1_jquery.min.js"></script>
+    <script src="./libs/bootstrap_5/cdn.jsdelivr.net_npm_bootstrap@5.2.3_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="./libs/animations/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
